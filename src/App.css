@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+body {
+    margin: 0, auto;
+    padding: 0, auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Nav-bar {
+    float: left;
+    width: 100%;
+    font-family: poppins;
+    background-color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ul.Nav-ul {
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+
+}
+
+li.li-spl1:hover {
+    color: gray;
+    
+}
+
+li.li-sp2:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+li.li-spl1 {
+    margin-right: 5em;
+}
+
+li.li-spl {
+    cursor: help;
+    width: 60%;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.content h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.content1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+input.content-input {
+    font-size: 16px;
+    font-family: serif;
+    padding: 0.5em;
+    width: 21%;
+}
+
+button.content-button {
+    width: 22%;
+    padding: 0.5em;
+    font-size: 16px;
+    margin-top: 1em;
+    background: lightblue;
+    border: lightblue;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.content1 p {
+    font-size: 14px;
+}
+
+button.content-button:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+.SS {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    right: 0.79em;
+}
+
+span {
+    color: blue;
+}
+
+.ss-photo {
+    float: left;
+    width: 50%;
+}
+
+.ss-photo1 {
+    float: right;
+    width: 50%;
+}
+
+img.SS1 {
+    width: 21%;
+    text-align: right;
+    border: solid 1px rgb(37, 211, 102);
+    margin-left: 10em;
+    position: relative;
+    left: 12em;
+    cursor: pointer;
+}
+
+img.SS2 {
+    width: 10%;
+    border: solid 1px cornflowerblue;
+    margin-right: 10em;
+    position: relative;
+    right: 10em;
+    cursor: pointer;
+}
+
+.SS p {
+    font-size: 14px;
+}
+.OTP {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
+}
+p.OTP.p1 {
+    font-size: 14px;
+}
+.OTP input {
+    width: 29%;
+    font-family: serif;
+}
+.list-numbers {
+    float: left;
+    width: 100%;
+}
+.Footer {
+    float: left;
+    width: 100%;
+    background: aliceblue;
+    font-family: 'Poppins';
+    margin-top: 2em;
+    text-align: center;
+    font-family: poppins;
+}
+h2.Footer-h2 {
+    position: relative;
+    top: 1em;
+    
+}
+.list-numbers {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
